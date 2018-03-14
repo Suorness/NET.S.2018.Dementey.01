@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.W.2018.Dementey.01", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GACTask", "GACTask\GACTask.csproj", "{49ED7C67-21E9-4650-BC88-B41934BFD2EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.W.2018.Dementey.01Tests", "NET.W.2018.Dementey.01Tests\NET.W.2018.Dementey.01Tests.csproj", "{18478031-FF5A-4C23-A350-FD428CF6B6CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49ED7C67-21E9-4650-BC88-B41934BFD2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49ED7C67-21E9-4650-BC88-B41934BFD2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49ED7C67-21E9-4650-BC88-B41934BFD2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18478031-FF5A-4C23-A350-FD428CF6B6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18478031-FF5A-4C23-A350-FD428CF6B6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18478031-FF5A-4C23-A350-FD428CF6B6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18478031-FF5A-4C23-A350-FD428CF6B6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
