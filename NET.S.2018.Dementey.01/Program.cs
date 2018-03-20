@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NET.W._2018.Dementey._01
+﻿namespace NET.S._2018.Dementey._01
 {
-    class Program
+    using System;
+
+    /// <summary>
+    /// Entry point in the program
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int[] array = new int[] { 99, 4, 2, 3, 5, 1, -1, 22, -9, 1, 0, 8, 4, 13, 16, 23, 42, 15, 93, 0, 1, 15, -18, -20 };
 
@@ -20,16 +19,19 @@ namespace NET.W._2018.Dementey._01
             {
                 Console.Write("{0} ", item);
             }
+
             Console.WriteLine();
             foreach (var item in newArr1)
             {
                 Console.Write("{0} ", item);
             }
+
             Console.WriteLine();
             foreach (var item in newArr2)
             {
                 Console.Write("{0} ", item);
             }
+
             Console.WriteLine();
             Console.ReadLine();
         }

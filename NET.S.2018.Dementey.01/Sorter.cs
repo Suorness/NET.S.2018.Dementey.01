@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace NET.W._2018.Dementey._01
+namespace NET.S._2018.Dementey._01
 {
     public static class Sorter
     {
@@ -13,7 +9,7 @@ namespace NET.W._2018.Dementey._01
             CheckInputParam(array);
 
             var cloneArray = new int[array.Length];
-            Array.Copy(array,cloneArray, array.Length);
+            Array.Copy(array, cloneArray, array.Length);
 
             QuickSorting(cloneArray, 0, cloneArray.Length - 1);
 
@@ -91,7 +87,6 @@ namespace NET.W._2018.Dementey._01
             {
                 QuickSorting(array, i, lastItem);
             }
-
         }
 
         private static void MergeSorting(int[] array, int[] leftArray, int[] rightArray)
@@ -131,7 +126,7 @@ namespace NET.W._2018.Dementey._01
 
         private static int GetBasicElement(int firsttItem, int lastItem)
         {
-            return firsttItem + (lastItem - firsttItem) / 2;
+            return (firsttItem + (lastItem - firsttItem)) / 2;
         }
 
         private static void CheckInputParam(int[] array)
@@ -152,7 +147,5 @@ namespace NET.W._2018.Dementey._01
             array[indexItem1] = array[indexItem2];
             array[indexItem2] = temp;
         }
-
-
     }
 }

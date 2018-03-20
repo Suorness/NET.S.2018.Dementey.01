@@ -7,8 +7,8 @@
     <ProjectGuid>{18478031-FF5A-4C23-A350-FD428CF6B6CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NET.W._2018.Dementey._01Tests</RootNamespace>
-    <AssemblyName>NET.W.2018.Dementey.01Tests</AssemblyName>
+    <RootNamespace>NET.S._2018.Dementey._01Tests</RootNamespace>
+    <AssemblyName>NET.S.2018.Dementey.01Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NET.W.2018.Dementey.01\NET.W.2018.Dementey.01.csproj">
+    <ProjectReference Include="..\NET.S.2018.Dementey.01\NET.S.2018.Dementey.01.csproj">
       <Project>{B2B7B6FA-CBBC-4C82-A303-81D1D5F7F4C6}</Project>
-      <Name>NET.W.2018.Dementey.01</Name>
+      <Name>NET.S.2018.Dementey.01</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
