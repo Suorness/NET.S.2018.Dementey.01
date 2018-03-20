@@ -160,9 +160,9 @@
             }
         }
 
-        private static int GetBasicElement(int firsttItem, int lastItem)
+        private static int GetBasicElement(int firstItem, int lastItem)
         {
-            return (firsttItem + (lastItem - firsttItem)) / 2;
+            return firstItem + ((lastItem - firstItem) / 2);
         }
 
         private static void CheckInputParam(int[] array)
