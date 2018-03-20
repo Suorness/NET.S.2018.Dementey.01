@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NET.S.2018.Dementey.01\NET.S.2018.Dementey.01.csproj">
-      <Project>{B2B7B6FA-CBBC-4C82-A303-81D1D5F7F4C6}</Project>
+      <Project>{b2b7b6fa-cbbc-4c82-a303-81d1d5f7f4c6}</Project>
       <Name>NET.S.2018.Dementey.01</Name>
     </ProjectReference>
   </ItemGroup>

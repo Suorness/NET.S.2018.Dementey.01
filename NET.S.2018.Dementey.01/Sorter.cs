@@ -1,9 +1,28 @@
-﻿using System;
-
-namespace NET.S._2018.Dementey._01
+﻿namespace NET.S._2018.Dementey._01
 {
+    using System;
+
+    /// <summary>
+    /// Class providing the implementation of quick sorting and sorting of the merge.
+    /// </summary>
     public static class Sorter
     {
+        #region public method
+        /// <summary>
+        /// The quick sort algorithm.
+        /// </summary>
+        /// <param name="array">
+        /// Array for sorting.
+        /// </param>
+        /// <exception cref="ArgumentNullException">
+        /// Thrown when array = null.
+        /// </exception>
+        /// <exception cref="ArgumentException">
+        /// Thrown when array.Length = 0.
+        /// </exception>
+        /// <returns>
+        /// Sorted array.
+        /// </returns>
         public static int[] QuickSort(int[] array)
         {
             CheckInputParam(array);
@@ -16,6 +35,21 @@ namespace NET.S._2018.Dementey._01
             return cloneArray;
         }
 
+        /// <summary>
+        /// The merge sort algorithm.
+        /// </summary>
+        /// <param name="array">
+        /// Array for sorting.
+        /// </param>
+        /// <exception cref="ArgumentNullException">
+        /// Thrown when array = null.
+        /// </exception>
+        /// <exception cref="ArgumentException">
+        /// Thrown when array.Length = 0.
+        /// </exception>
+        /// <returns>
+        /// Sorted array.
+        /// </returns>
         public static int[] MergeSort(int[] array)
         {
             CheckInputParam(array);
@@ -27,7 +61,9 @@ namespace NET.S._2018.Dementey._01
 
             return cloneArray;
         }
+        #endregion public method
 
+        #region private method
         private static void Merge(int[] array)
         {
             if (array.Length <= 1)
@@ -147,5 +183,6 @@ namespace NET.S._2018.Dementey._01
             array[indexItem1] = array[indexItem2];
             array[indexItem2] = temp;
         }
+        #endregion private method
     }
 }

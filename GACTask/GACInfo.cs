@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace GACTask
+﻿namespace GACTask
 {
+    using System;
+
     public class GACInfo
     {
         public void Info()
