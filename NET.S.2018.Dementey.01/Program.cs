@@ -39,6 +39,7 @@
             }
 
             Console.WriteLine();
+            GACTask.GACInfo.Info();
             Console.ReadLine();
         }
     }

@@ -2,9 +2,9 @@
 {
     using System;
 
-    public class GACInfo
+    public static class GACInfo
     {
-        public void Info()
+        public static void Info()
         {
             Console.WriteLine("GAC TEST");
         }
